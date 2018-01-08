@@ -9,7 +9,7 @@ var HeartIcon = require('./HeartIcon');
 var Relationship = createReactClass(
   {
     getInitialState: function() {
-      return { isLoved: true };
+      return { isLoved: this.props.isLoved };
     },
     toggleLove: function() {
       this.setState({ isLoved: !this.state.isLoved });

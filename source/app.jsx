@@ -7,7 +7,7 @@ var Relationship = require('./components/Relationship');
 var imagePath = "../source/images/";
 document.addEventListener('DOMContentLoaded', function() {
   ReactDOM.render(
-    <Relationship imagePath={ imagePath }/>,
+    <Relationship isLoved={ true } imagePath={ imagePath }/>,
     document.getElementById('mount')
   );
 });
