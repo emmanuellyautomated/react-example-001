@@ -3,6 +3,8 @@ _Simple example of using parent components to communicate between sibling compon
 
 ---
 
+![](source/images/demo.gif)
+
 ```
 .
 ├── .babelrc
@@ -31,8 +33,6 @@ _Simple example of using parent components to communicate between sibling compon
 | `package.json`         | `npm` config file for managing dependencies and running commands |
 | `source/`              | place for `react` components and other assets |
 | `webpack.config.json`  | config for managing the build process |
-
-![](source/images/demo.gif)
 
 The webpack build process follows [this tutorial](https://www.andrewhfarmer.com/build-your-own-starter/#0-intro)
 
