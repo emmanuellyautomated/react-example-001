@@ -3,7 +3,7 @@ _Simple example of using parent components to communicate between sibling compon
 
 ---
 
-![](src/images/demo.gif)
+![](source/images/demo.gif)
 
 The webpack build process follows [this tutorial](https://www.andrewhfarmer.com/build-your-own-starter/#0-intro)
 
