@@ -3,6 +3,35 @@ _Simple example of using parent components to communicate between sibling compon
 
 ---
 
+```
+.
+├── .babelrc
+├── .gitignore
+├── README.md
+├── build
+│   ├── app.js
+│   └── index.html
+├── package.json
+├── source
+│   ├── app.jsx
+│   ├── components
+│   │   ├── Button.jsx
+│   │   ├── HeartIcon.jsx
+│   │   ├── Message.jsx
+│   │   └── Relationship.jsx
+│   └── images
+│       ├── demo.gif
+│       ├── loved.png
+│       └── not-loved.png
+└── webpack.config.js
+```
+| File/Directory         | Description |
+| ---------------------: | :---------- |
+| `build/`               | home of `index.html` and where `webpack` dumps it's compiled `.jsx` |
+| `package.json`         | `npm` config file for managing dependencies and running commands |
+| `source/`              | place for `react` components and other assets |
+| `webpack.config.json`  | config for managing the build process |
+
 ![](source/images/demo.gif)
 
 The webpack build process follows [this tutorial](https://www.andrewhfarmer.com/build-your-own-starter/#0-intro)
