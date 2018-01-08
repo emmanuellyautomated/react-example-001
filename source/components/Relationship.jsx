@@ -6,7 +6,7 @@ var Button = require('./Button');
 var HeartIcon = require('./HeartIcon');
 
 
-var imagePath = "src/images/";
+var imagePath = "../source/images/";
 var Relationship = createReactClass(
   {
     getInitialState: function() {
