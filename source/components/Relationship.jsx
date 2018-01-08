@@ -6,7 +6,6 @@ var Button = require('./Button');
 var HeartIcon = require('./HeartIcon');
 
 
-var imagePath = "../source/images/";
 var Relationship = createReactClass(
   {
     getInitialState: function() {
@@ -22,7 +21,7 @@ var Relationship = createReactClass(
         <table>
           <tbody>
             <tr>
-              <td><HeartIcon imagePath={ imagePath } isLoved={ this.state.isLoved }/></td>
+              <td><HeartIcon imagePath={ this.props.imagePath } isLoved={ this.state.isLoved }/></td>
               <td style={ {width:"150px"} }><Message text={ messageText }/></td>
               <td><Button text={ buttonText } onClick={ this.toggleLove }/></td>
             </tr>

@@ -4,9 +4,10 @@ var ReactDOM = require("react-dom");
 var Relationship = require('./components/Relationship');
 
 
+var imagePath = "../source/images/";
 document.addEventListener('DOMContentLoaded', function() {
   ReactDOM.render(
-    React.createElement(Relationship),
+    <Relationship imagePath={ imagePath }/>,
     document.getElementById('mount')
   );
 });
