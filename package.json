@@ -4,6 +4,7 @@
   "description": "_Simple example of using parent components to communicate between sibling components_",
   "main": "index.js",
   "scripts": {
+    "compile": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
