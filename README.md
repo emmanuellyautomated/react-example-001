@@ -5,6 +5,8 @@ _Simple example of using parent components to communicate between sibling compon
 
 ![](source/images/demo.gif)
 
+Currently written with ES5. [Here's a resource](https://reactjs.org/docs/react-without-es6.html) for those of us that don't speak that anymore :sweat_smile:
+
 ```
 .
 ├── .babelrc
@@ -44,3 +46,7 @@ The app is based on [this one](http://react.tips/how-reactjs-components-communic
 
 ### Compile
 * `npm run compile`
+
+### TODO
+* add dev server
+* modernize with ES7
